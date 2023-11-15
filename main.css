@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@700&family=Quicksand:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  height: 75px;
+  width: 100%;
+   position: sticky;
+   z-index: 1000;
+   top: 0;
+  
+}
+
+.navbar img {
+  width: 150px;
+  margin-left: 100px;
+}
+
+a {
+  text-decoration: none;
+  text-transform: none;
+  color: white;
+  font-family: "Quicksand", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+.navbar ul {
+  display: flex;
+  margin-right: 100px;
+}
+
+.navbar ul li a {
+  padding: 15px 20px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.navbar ul li a:hover {
+  border-bottom: 2px solid #e4b95b;
+}
+
+
+
+.porfolio h2 {
+  text-transform: uppercase;
+  font-size: 50px;
+  font-family: "IBM Plex Serif", serif;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.porfolio p {
+  margin: 50px;
+  color: silver;
+  text-align: center;
+}
+
+
+.porfolio .father .container{
+
+  margin: auto 50px;
+ 
+ 
+  
+}
+.First_Container {
+    display: flex;
+    gap: 20px 20px;
+}
+
+.porfolio-item{
+    position: relative;
+}
+
+.porfolio-item img{
+    width: 100%;
+    height: 100%;
+}
+
+ .test{
+    position:absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-property: none;
+    transition-duration: 1s;
+    transition-delay: 1s;
+}
+
+.test :hover{
+    width: 580px;
+    height: 440px;
+    background-color:rgb(255, 0, 0,0.5);
+    margin: auto;
+   
+
+}
+
+
+
+
+
+
+
+
+
+
+
